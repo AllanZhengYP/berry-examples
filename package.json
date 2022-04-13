@@ -1,0 +1,19 @@
+{
+  "name": "berry-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@tsconfig/recommended": "1.0.1",
+    "jest": "27.5.1"
+  },
+  "packageManager": "yarn@3.2.0"
+}
